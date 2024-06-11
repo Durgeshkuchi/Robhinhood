@@ -8,16 +8,16 @@ import UserSentiment from './components/UserSentiment/UserSentiment'
 import SummarySection from './components/SummarySection/SummarySection'
 import JoinStock from './components/Joinstock/JoinStock'
 import Graph from './components/Graph/Graph'
+import GraphTips from './components/GraphTips/GraphTips'
 
 function App() {
-
   return (
     <div className="main-container">
       <StockIndicators />
       <Navigation />
       <ActiveStockNav />
       <div className="main-section">
-        <div className='data-section pl-10'>
+        <div className="data-section pl-10">
           <Stock />
           <StockAction />
           <Graph />
@@ -28,7 +28,6 @@ function App() {
           <JoinStock />
         </div>
       </div>
-      
     </div>
   )
 }

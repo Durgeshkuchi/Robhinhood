@@ -1,39 +1,45 @@
 .summary-section {
-    grid-area: summary;
-    min-width: 80%;;
+  grid-area: summary;
+  min-width: 80%;
 }
 .summary-section .nav {
-    margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .stats-summary {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding-right: 200px;
 }
 .nav {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 .heading1 {
-    font-size: 22px;
-    font-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
 }
 .stat-heading-dark {
-    margin-top: 10px;
-    font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .custom-nav {
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+  padding-right: 125px;
 }
 .custom-nav div {
-    padding: 25px 0px;
+  padding: 25px 0px;
 }
 .custom-nav div:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+.graph-section {
+  display: flex;
+  justify-content: space-between;
 }

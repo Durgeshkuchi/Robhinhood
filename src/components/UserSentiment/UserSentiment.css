@@ -1,39 +1,40 @@
 .user-sentiment {
-    grid-area: userSentiment;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid #ccc;
+  grid-area: userSentiment;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
 }
 
 .user-sentiment div {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .user-sentiment-stats {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .stats {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .bar-graph {
-    min-width: 100px;
+  min-width: 100px;
+  flex: 1;
 }
 .user-thought {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .user-thought * {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 .heading2 {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 .timeline {
-    font-weight: bold;
+  font-weight: bold;
 }
 .stat-heading {
-    font-weight: bold;
-    color: #b3b3b3;
+  font-weight: bold;
+  color: #b3b3b3;
 }
