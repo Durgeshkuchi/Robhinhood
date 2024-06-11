@@ -1,0 +1,125 @@
+.join-stock {
+    grid-area: conversation;
+    padding-bottom: 20px;
+}
+.stock-details {
+    display: flex;
+    flex-direction: column;
+    
+}
+.stock-details * {
+    margin-bottom: 8px;;
+}
+.stock-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.stock-name + p {
+    font-weight: 500;
+}
+.stock-subscribe-actions{
+    display: flex;
+}
+.stock-members {
+    display: flex;
+    color: #ddd;
+}
+.stock-subscribe-actions div:nth-child(1) {
+    margin-right: 10px;
+}
+.stock-members div:nth-child(1) {
+    margin-right: 15px;
+}
+.chat-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;;
+}
+.chat-nav div {
+    font-weight: bold;
+    padding: 15px 30px;
+}
+.stock-chat-details, .stock-members {
+    display: flex;
+}
+.stock-chat-details {
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.comment {
+    max-width: 300px;
+}
+.post-section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.post-text {
+    width: 100%;
+    height: 50px;
+    border: none; 
+}
+.post-text:focus {
+    outline: none;
+    cursor: text;
+}
+.post-text::placeholder {
+    font-size: 16px;
+}
+.post-btn {
+    background-color: #B3B3B3;
+    color: white;
+    padding: 7px 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+/* Comment styles */
+.comment-section {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.comment-section:nth-last-child(1) {
+    border-bottom: none;
+
+}
+
+.comment-heading {
+    display: flex;
+    margin-bottom: 10px;
+}
+.user-details {
+    margin-left: 15px;
+}
+.user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.user-id {
+    color: #b3b3b3;
+}
+.comment {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.comment-more {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.comment-votes {
+    color: #b3b3b3;
+}
+.green-check {
+    color: #1DCF5B;
+    align-items: center;
+    font-size: 16px;
+}
+.stock-name {
+    display: flex
+}

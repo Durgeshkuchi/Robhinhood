@@ -1,0 +1,17 @@
+.stock-action {
+    grid-area: stockAction;
+}
+.stock-logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+
+}
+
+.action-items {
+    display: flex;
+    justify-content: flex-end;
+}
+.action-items div {
+    margin-left: 15px;
+}

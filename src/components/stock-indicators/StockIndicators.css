@@ -1,0 +1,26 @@
+.key-indicators  {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 20px;
+}
+
+.key-indicators div {
+    font-weight: bold;
+    padding: 15px 20px;
+}
+.key-indicators div:nth-child(1) {
+    padding-left: 0;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+.dropdown div {
+    padding-right: 5px;
+}
+.indicator {
+    display: flex;
+    align-items: center;
+}

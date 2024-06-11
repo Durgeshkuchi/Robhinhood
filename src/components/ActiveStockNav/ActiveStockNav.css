@@ -1,0 +1,16 @@
+.active-stock-nav {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding: 20px 30px;
+}
+.stock-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-markets {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}

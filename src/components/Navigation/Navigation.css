@@ -1,0 +1,28 @@
+.nav {
+ display: flex;
+ align-items: center;
+ border-bottom: 1px solid #ccc;
+}
+.nav div {
+    font-weight: bold;
+    padding: 15px 30px;
+}
+.nav div:nth-child(1) {
+    padding-left: 0;
+}
+.site-logo {
+    height: 30px;
+}
+
+.search {
+    border: 1px solid black;
+    padding: 12px;
+}
+.nav-item {
+    margin: 0;
+}
+
+.active {
+    color: #1DCF5B;
+    border-bottom: 3px solid #1DCF5B;
+}
