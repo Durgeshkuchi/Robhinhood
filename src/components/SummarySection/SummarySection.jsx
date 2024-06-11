@@ -117,7 +117,7 @@ const SummarySection = () => {
           strokeColor="#00C853"
         />
         <StockCard
-          title="Berkshire Hathaway"
+          title="Berkshire"
           price={140.92}
           percentageChange={16.78}
           points="0,40 10,30 20,35 30,20 40,25 50,15 60,30 70,20 80,10 90,20 100,5"
